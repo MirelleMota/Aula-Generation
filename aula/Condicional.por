@@ -3,27 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		const inteiro TAMANHO =3
-		inteiro mat [TAMANHO][2], l, c
-
-		para (l=0;l<TAMANHO;l++)
+		inteiro idade
+		escreva("Entre com a sua idade:")
+		leia(idade)
+		se (idade >=18)
 		{
-			para (c=0;c<2;c++)
-			{
-				escreva(" Valor ")
-				leia(mat[l][c])
-			}
+			escreva("Você é maior de idade")
 		}
-		limpa()
-		para (l=0;l<TAMANHO;l++)
-		{
-			para (c=0;c<2;c++)
+		senao
 			{
-				escreva("[ ",mat[l][c],"] ")
-				
+				escreva("Você não é maior de idade")
 			}
-			escreva("\n")
-		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 173; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
