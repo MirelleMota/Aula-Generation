@@ -4,9 +4,9 @@ programa
 	funcao inicio()
 	{
 		real num1, num2, res
-		escreva("\nEntre com o primeiro valor ")
+		escreva("\nEntre com o primeiro valor: ")
 		leia(num1)
-		escreva("\nEntre com o segundo valor ")
+		escreva("\nEntre com o segundo valor: ")
 		leia(num2)
 		res = num1 + num2
 		escreva("\nA soma é: ", res)
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 156; 
+ * @POSICAO-CURSOR = 152; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
